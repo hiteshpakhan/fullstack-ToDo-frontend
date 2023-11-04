@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "http://localhost:8080/api/todos"
+const baseUrl = "https://todo-hitesh.onrender.com/api/todos"
 
 const getAllTodo = (setTodoData) => {
     axios.get(`${baseUrl}/getall`)
